@@ -11,5 +11,5 @@ const planetRadius = [
 
 const sunRadius = { sun: { radius: 696340, color: ['yellow'], name: 'sol'} };
 
-const size = planetRadius.map((planet) => (planet.ua * 20).toFixed(2));
+const size = planetRadius.map((planet) => (planet.ua * 150000000 /2 /100000).toFixed(2));
 console.log(size)
